@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		530480BC15DC71D900FC74F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530480BB15DC71D900FC74F3 /* UIKit.framework */; };
+		530480BE15DC71D900FC74F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530480BD15DC71D900FC74F3 /* Foundation.framework */; };
+		530480C015DC71D900FC74F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530480BF15DC71D900FC74F3 /* CoreGraphics.framework */; };
+		530480C615DC71D900FC74F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 530480C415DC71D900FC74F3 /* InfoPlist.strings */; };
+		530480C815DC71D900FC74F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530480C715DC71D900FC74F3 /* main.m */; };
+		530480CC15DC71D900FC74F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530480CB15DC71D900FC74F3 /* AppDelegate.m */; };
+		530480CF15DC71D900FC74F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530480CE15DC71D900FC74F3 /* ViewController.m */; };
+		530480D215DC71D900FC74F3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530480D015DC71D900FC74F3 /* ViewController.xib */; };
+		530480DA15DC726A00FC74F3 /* CirculoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 530480D915DC726A00FC74F3 /* CirculoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		530480B715DC71D900FC74F3 /* ViewTouchEventEx1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTouchEventEx1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		530480BB15DC71D900FC74F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		530480BD15DC71D900FC74F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		530480BF15DC71D900FC74F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		530480C315DC71D900FC74F3 /* ViewTouchEventEx1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTouchEventEx1-Info.plist"; sourceTree = "<group>"; };
+		530480C515DC71D900FC74F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		530480C715DC71D900FC74F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		530480C915DC71D900FC74F3 /* ViewTouchEventEx1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewTouchEventEx1-Prefix.pch"; sourceTree = "<group>"; };
+		530480CA15DC71D900FC74F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		530480CB15DC71D900FC74F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		530480CD15DC71D900FC74F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		530480CE15DC71D900FC74F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		530480D115DC71D900FC74F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		530480D815DC726A00FC74F3 /* CirculoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirculoView.h; sourceTree = "<group>"; };
+		530480D915DC726A00FC74F3 /* CirculoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirculoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		530480B415DC71D900FC74F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530480BC15DC71D900FC74F3 /* UIKit.framework in Frameworks */,
+				530480BE15DC71D900FC74F3 /* Foundation.framework in Frameworks */,
+				530480C015DC71D900FC74F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		530480AC15DC71D900FC74F3 = {
+			isa = PBXGroup;
+			children = (
+				530480C115DC71D900FC74F3 /* ViewTouchEventEx1 */,
+				530480BA15DC71D900FC74F3 /* Frameworks */,
+				530480B815DC71D900FC74F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		530480B815DC71D900FC74F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				530480B715DC71D900FC74F3 /* ViewTouchEventEx1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		530480BA15DC71D900FC74F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				530480BB15DC71D900FC74F3 /* UIKit.framework */,
+				530480BD15DC71D900FC74F3 /* Foundation.framework */,
+				530480BF15DC71D900FC74F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		530480C115DC71D900FC74F3 /* ViewTouchEventEx1 */ = {
+			isa = PBXGroup;
+			children = (
+				530480CA15DC71D900FC74F3 /* AppDelegate.h */,
+				530480CB15DC71D900FC74F3 /* AppDelegate.m */,
+				530480CD15DC71D900FC74F3 /* ViewController.h */,
+				530480CE15DC71D900FC74F3 /* ViewController.m */,
+				530480D015DC71D900FC74F3 /* ViewController.xib */,
+				530480C215DC71D900FC74F3 /* Supporting Files */,
+				530480D815DC726A00FC74F3 /* CirculoView.h */,
+				530480D915DC726A00FC74F3 /* CirculoView.m */,
+			);
+			path = ViewTouchEventEx1;
+			sourceTree = "<group>";
+		};
+		530480C215DC71D900FC74F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				530480C315DC71D900FC74F3 /* ViewTouchEventEx1-Info.plist */,
+				530480C415DC71D900FC74F3 /* InfoPlist.strings */,
+				530480C715DC71D900FC74F3 /* main.m */,
+				530480C915DC71D900FC74F3 /* ViewTouchEventEx1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		530480B615DC71D900FC74F3 /* ViewTouchEventEx1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530480D515DC71D900FC74F3 /* Build configuration list for PBXNativeTarget "ViewTouchEventEx1" */;
+			buildPhases = (
+				530480B315DC71D900FC74F3 /* Sources */,
+				530480B415DC71D900FC74F3 /* Frameworks */,
+				530480B515DC71D900FC74F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewTouchEventEx1;
+			productName = ViewTouchEventEx1;
+			productReference = 530480B715DC71D900FC74F3 /* ViewTouchEventEx1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		530480AE15DC71D900FC74F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 530480B115DC71D900FC74F3 /* Build configuration list for PBXProject "ViewTouchEventEx1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 530480AC15DC71D900FC74F3;
+			productRefGroup = 530480B815DC71D900FC74F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				530480B615DC71D900FC74F3 /* ViewTouchEventEx1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		530480B515DC71D900FC74F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530480C615DC71D900FC74F3 /* InfoPlist.strings in Resources */,
+				530480D215DC71D900FC74F3 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		530480B315DC71D900FC74F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530480C815DC71D900FC74F3 /* main.m in Sources */,
+				530480CC15DC71D900FC74F3 /* AppDelegate.m in Sources */,
+				530480CF15DC71D900FC74F3 /* ViewController.m in Sources */,
+				530480DA15DC726A00FC74F3 /* CirculoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		530480C415DC71D900FC74F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530480C515DC71D900FC74F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		530480D015DC71D900FC74F3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530480D115DC71D900FC74F3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		530480D315DC71D900FC74F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		530480D415DC71D900FC74F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		530480D615DC71D900FC74F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewTouchEventEx1/ViewTouchEventEx1-Prefix.pch";
+				INFOPLIST_FILE = "ViewTouchEventEx1/ViewTouchEventEx1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		530480D715DC71D900FC74F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewTouchEventEx1/ViewTouchEventEx1-Prefix.pch";
+				INFOPLIST_FILE = "ViewTouchEventEx1/ViewTouchEventEx1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		530480B115DC71D900FC74F3 /* Build configuration list for PBXProject "ViewTouchEventEx1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530480D315DC71D900FC74F3 /* Debug */,
+				530480D415DC71D900FC74F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		530480D515DC71D900FC74F3 /* Build configuration list for PBXNativeTarget "ViewTouchEventEx1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530480D615DC71D900FC74F3 /* Debug */,
+				530480D715DC71D900FC74F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 530480AE15DC71D900FC74F3 /* Project object */;
+}

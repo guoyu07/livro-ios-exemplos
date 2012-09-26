@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		530480EB15DE699800FC74F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530480EA15DE699800FC74F3 /* UIKit.framework */; };
+		530480ED15DE699800FC74F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530480EC15DE699800FC74F3 /* Foundation.framework */; };
+		530480EF15DE699800FC74F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530480EE15DE699800FC74F3 /* CoreGraphics.framework */; };
+		530480F515DE699800FC74F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 530480F315DE699800FC74F3 /* InfoPlist.strings */; };
+		530480F715DE699800FC74F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530480F615DE699800FC74F3 /* main.m */; };
+		530480FB15DE699800FC74F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530480FA15DE699800FC74F3 /* AppDelegate.m */; };
+		530480FE15DE699800FC74F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530480FD15DE699800FC74F3 /* ViewController.m */; };
+		5304810115DE699800FC74F3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530480FF15DE699800FC74F3 /* ViewController.xib */; };
+		5304810915DE69B800FC74F3 /* TapCirculoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304810815DE69B800FC74F3 /* TapCirculoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		530480E615DE699800FC74F3 /* TapCirculos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCirculos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		530480EA15DE699800FC74F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		530480EC15DE699800FC74F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		530480EE15DE699800FC74F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		530480F215DE699800FC74F3 /* TapCirculos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapCirculos-Info.plist"; sourceTree = "<group>"; };
+		530480F415DE699800FC74F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		530480F615DE699800FC74F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		530480F815DE699800FC74F3 /* TapCirculos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapCirculos-Prefix.pch"; sourceTree = "<group>"; };
+		530480F915DE699800FC74F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		530480FA15DE699800FC74F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		530480FC15DE699800FC74F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		530480FD15DE699800FC74F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5304810015DE699800FC74F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5304810715DE69B800FC74F3 /* TapCirculoView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = TapCirculoView.h; sourceTree = "<group>"; };
+		5304810815DE69B800FC74F3 /* TapCirculoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapCirculoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		530480E315DE699800FC74F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530480EB15DE699800FC74F3 /* UIKit.framework in Frameworks */,
+				530480ED15DE699800FC74F3 /* Foundation.framework in Frameworks */,
+				530480EF15DE699800FC74F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		530480DB15DE699800FC74F3 = {
+			isa = PBXGroup;
+			children = (
+				530480F015DE699800FC74F3 /* TapCirculos */,
+				530480E915DE699800FC74F3 /* Frameworks */,
+				530480E715DE699800FC74F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		530480E715DE699800FC74F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				530480E615DE699800FC74F3 /* TapCirculos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		530480E915DE699800FC74F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				530480EA15DE699800FC74F3 /* UIKit.framework */,
+				530480EC15DE699800FC74F3 /* Foundation.framework */,
+				530480EE15DE699800FC74F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		530480F015DE699800FC74F3 /* TapCirculos */ = {
+			isa = PBXGroup;
+			children = (
+				5304810715DE69B800FC74F3 /* TapCirculoView.h */,
+				5304810815DE69B800FC74F3 /* TapCirculoView.m */,
+				530480F915DE699800FC74F3 /* AppDelegate.h */,
+				530480FA15DE699800FC74F3 /* AppDelegate.m */,
+				530480FC15DE699800FC74F3 /* ViewController.h */,
+				530480FD15DE699800FC74F3 /* ViewController.m */,
+				530480FF15DE699800FC74F3 /* ViewController.xib */,
+				530480F115DE699800FC74F3 /* Supporting Files */,
+			);
+			path = TapCirculos;
+			sourceTree = "<group>";
+		};
+		530480F115DE699800FC74F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				530480F215DE699800FC74F3 /* TapCirculos-Info.plist */,
+				530480F315DE699800FC74F3 /* InfoPlist.strings */,
+				530480F615DE699800FC74F3 /* main.m */,
+				530480F815DE699800FC74F3 /* TapCirculos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		530480E515DE699800FC74F3 /* TapCirculos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5304810415DE699800FC74F3 /* Build configuration list for PBXNativeTarget "TapCirculos" */;
+			buildPhases = (
+				530480E215DE699800FC74F3 /* Sources */,
+				530480E315DE699800FC74F3 /* Frameworks */,
+				530480E415DE699800FC74F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapCirculos;
+			productName = TapCirculos;
+			productReference = 530480E615DE699800FC74F3 /* TapCirculos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		530480DD15DE699800FC74F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 530480E015DE699800FC74F3 /* Build configuration list for PBXProject "TapCirculos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 530480DB15DE699800FC74F3;
+			productRefGroup = 530480E715DE699800FC74F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				530480E515DE699800FC74F3 /* TapCirculos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		530480E415DE699800FC74F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530480F515DE699800FC74F3 /* InfoPlist.strings in Resources */,
+				5304810115DE699800FC74F3 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		530480E215DE699800FC74F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530480F715DE699800FC74F3 /* main.m in Sources */,
+				530480FB15DE699800FC74F3 /* AppDelegate.m in Sources */,
+				530480FE15DE699800FC74F3 /* ViewController.m in Sources */,
+				5304810915DE69B800FC74F3 /* TapCirculoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		530480F315DE699800FC74F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530480F415DE699800FC74F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		530480FF15DE699800FC74F3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5304810015DE699800FC74F3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5304810215DE699800FC74F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5304810315DE699800FC74F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5304810515DE699800FC74F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapCirculos/TapCirculos-Prefix.pch";
+				INFOPLIST_FILE = "TapCirculos/TapCirculos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5304810615DE699800FC74F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapCirculos/TapCirculos-Prefix.pch";
+				INFOPLIST_FILE = "TapCirculos/TapCirculos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		530480E015DE699800FC74F3 /* Build configuration list for PBXProject "TapCirculos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5304810215DE699800FC74F3 /* Debug */,
+				5304810315DE699800FC74F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5304810415DE699800FC74F3 /* Build configuration list for PBXNativeTarget "TapCirculos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5304810515DE699800FC74F3 /* Debug */,
+				5304810615DE699800FC74F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 530480DD15DE699800FC74F3 /* Project object */;
+}

@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		534FE43416053036005685F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534FE43316053036005685F2 /* UIKit.framework */; };
+		534FE43616053036005685F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534FE43516053036005685F2 /* Foundation.framework */; };
+		534FE43816053036005685F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534FE43716053036005685F2 /* CoreGraphics.framework */; };
+		534FE43E16053036005685F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 534FE43C16053036005685F2 /* InfoPlist.strings */; };
+		534FE44016053036005685F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 534FE43F16053036005685F2 /* main.m */; };
+		534FE44416053036005685F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 534FE44316053036005685F2 /* AppDelegate.m */; };
+		534FE44716053036005685F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 534FE44616053036005685F2 /* ViewController.m */; };
+		534FE44A16053036005685F2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 534FE44816053036005685F2 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		534FE42F16053036005685F2 /* GestoSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestoSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		534FE43316053036005685F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		534FE43516053036005685F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		534FE43716053036005685F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		534FE43B16053036005685F2 /* GestoSwipe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestoSwipe-Info.plist"; sourceTree = "<group>"; };
+		534FE43D16053036005685F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		534FE43F16053036005685F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		534FE44116053036005685F2 /* GestoSwipe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestoSwipe-Prefix.pch"; sourceTree = "<group>"; };
+		534FE44216053036005685F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		534FE44316053036005685F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		534FE44516053036005685F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		534FE44616053036005685F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		534FE44916053036005685F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		534FE42C16053036005685F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534FE43416053036005685F2 /* UIKit.framework in Frameworks */,
+				534FE43616053036005685F2 /* Foundation.framework in Frameworks */,
+				534FE43816053036005685F2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		534FE42416053036005685F2 = {
+			isa = PBXGroup;
+			children = (
+				534FE43916053036005685F2 /* GestoSwipe */,
+				534FE43216053036005685F2 /* Frameworks */,
+				534FE43016053036005685F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		534FE43016053036005685F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				534FE42F16053036005685F2 /* GestoSwipe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		534FE43216053036005685F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				534FE43316053036005685F2 /* UIKit.framework */,
+				534FE43516053036005685F2 /* Foundation.framework */,
+				534FE43716053036005685F2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		534FE43916053036005685F2 /* GestoSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				534FE44216053036005685F2 /* AppDelegate.h */,
+				534FE44316053036005685F2 /* AppDelegate.m */,
+				534FE44516053036005685F2 /* ViewController.h */,
+				534FE44616053036005685F2 /* ViewController.m */,
+				534FE44816053036005685F2 /* ViewController.xib */,
+				534FE43A16053036005685F2 /* Supporting Files */,
+			);
+			path = GestoSwipe;
+			sourceTree = "<group>";
+		};
+		534FE43A16053036005685F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				534FE43B16053036005685F2 /* GestoSwipe-Info.plist */,
+				534FE43C16053036005685F2 /* InfoPlist.strings */,
+				534FE43F16053036005685F2 /* main.m */,
+				534FE44116053036005685F2 /* GestoSwipe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		534FE42E16053036005685F2 /* GestoSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534FE44D16053036005685F2 /* Build configuration list for PBXNativeTarget "GestoSwipe" */;
+			buildPhases = (
+				534FE42B16053036005685F2 /* Sources */,
+				534FE42C16053036005685F2 /* Frameworks */,
+				534FE42D16053036005685F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestoSwipe;
+			productName = GestoSwipe;
+			productReference = 534FE42F16053036005685F2 /* GestoSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		534FE42616053036005685F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 534FE42916053036005685F2 /* Build configuration list for PBXProject "GestoSwipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 534FE42416053036005685F2;
+			productRefGroup = 534FE43016053036005685F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				534FE42E16053036005685F2 /* GestoSwipe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		534FE42D16053036005685F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534FE43E16053036005685F2 /* InfoPlist.strings in Resources */,
+				534FE44A16053036005685F2 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		534FE42B16053036005685F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534FE44016053036005685F2 /* main.m in Sources */,
+				534FE44416053036005685F2 /* AppDelegate.m in Sources */,
+				534FE44716053036005685F2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		534FE43C16053036005685F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				534FE43D16053036005685F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		534FE44816053036005685F2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				534FE44916053036005685F2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		534FE44B16053036005685F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		534FE44C16053036005685F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		534FE44E16053036005685F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestoSwipe/GestoSwipe-Prefix.pch";
+				INFOPLIST_FILE = "GestoSwipe/GestoSwipe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		534FE44F16053036005685F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestoSwipe/GestoSwipe-Prefix.pch";
+				INFOPLIST_FILE = "GestoSwipe/GestoSwipe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		534FE42916053036005685F2 /* Build configuration list for PBXProject "GestoSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534FE44B16053036005685F2 /* Debug */,
+				534FE44C16053036005685F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534FE44D16053036005685F2 /* Build configuration list for PBXNativeTarget "GestoSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534FE44E16053036005685F2 /* Debug */,
+				534FE44F16053036005685F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 534FE42616053036005685F2 /* Project object */;
+}
