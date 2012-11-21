@@ -5,7 +5,6 @@
 @end
 
 @implementation HWViewController
-@synthesize workingView;
 
 - (void)viewDidLoad
 {
@@ -25,18 +24,18 @@
 
 - (IBAction)hideView:(id)sender {
 	[UIView beginAnimations:nil context:nil];
-	workingView.alpha = 0;
+	self.workingView.alpha = 0;
 	[UIView commitAnimations];
 }
 
 - (IBAction)showView:(id)sender {
 	[UIView beginAnimations:nil context:nil];
-	workingView.alpha = 1;
+	self.workingView.alpha = 1;
 	[UIView commitAnimations];
 }
 
 - (void)dealloc {
-	[workingView release];
+	[_workingView release];
 	[super dealloc];
 }
 @end

@@ -3,7 +3,6 @@
 #import "UIImageView+AFNetworking.h"
 
 @implementation ViewController
-@synthesize scroll;
 
 -(void) mostraMensagem:(NSString *) mensagem {
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Aviso" 
@@ -40,11 +39,11 @@
 }
 
 -(void) inicializaScroll {
-	float largura = scroll.frame.size.width;
-	float altura = scroll.frame.size.height;
+	float largura = self.scroll.frame.size.width;
+	float altura = self.scroll.frame.size.height;
 
-	scroll.contentSize = CGSizeMake(largura * elementos.count, altura);
-	scroll.pagingEnabled = YES;
+	self.scroll.contentSize = CGSizeMake(largura * elementos.count, altura);
+	self.scroll.pagingEnabled = YES;
 	
 	imagens = [[NSMutableArray alloc] init];
 	
@@ -57,7 +56,7 @@
 		CGRect posicao = CGRectMake(indice++ * largura, 0, largura, altura);
 		UIImageView *img = [[UIImageView alloc] initWithFrame:posicao];
 
-		[scroll addSubview:img];
+		[self.scroll addSubview:img];
 		[imagens addObject:img];
 
 		[img release];
@@ -68,20 +67,20 @@
 }
 
 -(void) didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
-	float largura = scroll.frame.size.width;
-	float altura = scroll.frame.size.height;
+	float largura = self.scroll.frame.size.width;
+	float altura = self.scroll.frame.size.height;
 	int indice = 0;
 	
-	scroll.contentSize = CGSizeMake(largura * elementos.count, altura);
+	self.scroll.contentSize = CGSizeMake(largura * elementos.count, altura);
 
-	for (UIImageView *img in scroll.subviews) {
+	for (UIImageView *img in self.scroll.subviews) {
 		if (img.frame.size.width > 7 && img.frame.size.height > 7) {
 			img.frame = CGRectMake(indice++ * largura, 0, largura, altura);
 		}
 	}	
 	
 	CGPoint novaPosicao = CGPointMake(largura * paginaAtual, 0);
-	[scroll setContentOffset:novaPosicao animated:NO];
+	[self.scroll setContentOffset:novaPosicao animated:NO];
 }
 
 -(void) carregaImagemRemota:(int) indice {
@@ -98,8 +97,8 @@
 }
 
 -(void) scrollViewDidScroll:(UIScrollView *)scrollView {
-	int x = (int)scroll.contentOffset.x;
-	int largura = scroll.frame.size.width;
+	int x = (int)self.scroll.contentOffset.x;
+	int largura = self.scroll.frame.size.width;
 	
 	// Somente carrega a próxima imagem
 	// caso o scroll tenha parado em uma página
@@ -119,7 +118,7 @@
 }
 
 - (void)dealloc {
-	[scroll release];
+	[_scroll release];
 	[imagens release];
 	[super dealloc];
 }

@@ -6,7 +6,6 @@
 @end
 
 @implementation ViewController
-@synthesize tabelaContatos;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -44,7 +43,7 @@
 
 - (void)dealloc {
 	[contatos release];
-	[tabelaContatos release];
+	[_tabelaContatos release];
     [super dealloc];
 }
 
@@ -61,7 +60,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	static NSString *CelulaContatoCacheID = @"CelulaContatoCacheID";
-	UITableViewCell *cell = [tabelaContatos dequeueReusableCellWithIdentifier:CelulaContatoCacheID];
+	UITableViewCell *cell = [self.tabelaContatos dequeueReusableCellWithIdentifier:CelulaContatoCacheID];
 
 	if (!cell) {
 		cell = [[[UITableViewCell alloc] 
@@ -89,7 +88,7 @@
 		otherButtonTitles:nil] autorelease];
 	[alert show];
 	
-	[tabelaContatos deselectRowAtIndexPath:indexPath animated:YES];
+	[self.tabelaContatos deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end

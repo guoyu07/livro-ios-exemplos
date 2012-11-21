@@ -6,8 +6,6 @@
 @end
 
 @implementation ViewController
-@synthesize botaoEditar;
-@synthesize tabelaContatos;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -40,13 +38,13 @@
 }
 
 - (IBAction)botaoEditarTap:(id)sender {
-	if ([botaoEditar.title isEqualToString:@"Editar"]) {
-		[tabelaContatos setEditing:YES animated:YES];
-		botaoEditar.title = @"Pronto";
+	if ([self.botaoEditar.title isEqualToString:@"Editar"]) {
+		[self.tabelaContatos setEditing:YES animated:YES];
+		self.botaoEditar.title = @"Pronto";
 	}
 	else {
-		[tabelaContatos setEditing:NO animated:YES];
-		botaoEditar.title = @"Editar";
+		[self.tabelaContatos setEditing:NO animated:YES];
+		self.botaoEditar.title = @"Editar";
 	}
 }
 
@@ -56,8 +54,8 @@
 
 - (void)dealloc {
 	[contatos release];
-	[tabelaContatos release];
-	[botaoEditar release];
+	[_tabelaContatos release];
+	[_botaoEditar release];
     [super dealloc];
 }
 
@@ -75,7 +73,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	static NSString *CelulaContatoCacheID = @"CelulaContatoCacheID";
-	UITableViewCell *cell = [tabelaContatos dequeueReusableCellWithIdentifier:CelulaContatoCacheID];
+	UITableViewCell *cell = [self.tabelaContatos dequeueReusableCellWithIdentifier:CelulaContatoCacheID];
 
 	if (!cell) {
 		cell = [[[UITableViewCell alloc] 
@@ -99,7 +97,7 @@
 	// Muito importante - não esqueça de chamar reloadData, caso contrário
 	// a table view não irá ficar sabendo da mudança, e você pode ter problemas
 	// em alguma outra parte do aplicativo
-	[tabelaContatos reloadData];
+	[self.tabelaContatos reloadData];
 }
 
 #pragma mark -
@@ -124,6 +122,6 @@
 		otherButtonTitles:nil] autorelease];
 	[alert show];
 	
-	[tabelaContatos deselectRowAtIndexPath:indexPath animated:YES];
+	[self.tabelaContatos deselectRowAtIndexPath:indexPath animated:YES];
 }
 @end

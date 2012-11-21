@@ -5,6 +5,5 @@
 @interface ViewController : UIViewController<MKMapViewDelegate>
 
 @property (retain, nonatomic) IBOutlet MKMapView *mapa;
-@property (nonatomic, retain) CLLocationManager *gerenciadorLocalizacao;
 
 @end

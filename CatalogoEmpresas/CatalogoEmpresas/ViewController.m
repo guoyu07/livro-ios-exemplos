@@ -6,14 +6,10 @@
 @end
 
 @implementation ViewController
-@synthesize nomeField;
-@synthesize quantidadeField;
-@synthesize avisoSucessoLabel;
-
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	avisoSucessoLabel.hidden = YES;
+	self.avisoSucessoLabel.hidden = YES;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -21,16 +17,16 @@
 }
 
 - (void)dealloc {
-	[nomeField release];
-	[quantidadeField release];
-	[avisoSucessoLabel release];
+	[_nomeField release];
+	[_quantidadeField release];
+	[_avisoSucessoLabel release];
 	[super dealloc];
 }
 
 
 - (IBAction)incrementadorAlterado:(id)sender {
 	UIStepper *incrementador = (UIStepper *)sender;
-	quantidadeField.text = [NSString stringWithFormat:@"%d", (int)incrementador.value];
+	self.quantidadeField.text = [NSString stringWithFormat:@"%d", (int)incrementador.value];
 }
 
 -(void) salvaEmpresa:(Empresa *) novaEmpresa {
@@ -51,11 +47,11 @@
 }
 
 - (IBAction)salvar:(id)sender {
-	[nomeField resignFirstResponder];
+	[self.nomeField resignFirstResponder];
 
 	Empresa *e = [[Empresa alloc] init];
-	e.nome = nomeField.text;
-	e.quantidadeFuncionarios = [quantidadeField.text intValue];
+	e.nome = self.nomeField.text;
+	e.quantidadeFuncionarios = [self.quantidadeField.text intValue];
 	
 	[self salvaEmpresa:e];
 	[self mostraCatalogo];
@@ -63,17 +59,17 @@
 	[e release];
 	
 	// Mostra a mensagem de sucesso por alguns instantes
-	avisoSucessoLabel.alpha = 0;
-	avisoSucessoLabel.hidden = NO;
+	self.avisoSucessoLabel.alpha = 0;
+	self.avisoSucessoLabel.hidden = NO;
 	
 	[UIView animateWithDuration:1 animations:^{
-		avisoSucessoLabel.hidden = NO;
-		avisoSucessoLabel.alpha = 1;
+		self.avisoSucessoLabel.hidden = NO;
+		self.avisoSucessoLabel.alpha = 1;
 	} completion:^(BOOL finalizado) {
 		[UIView animateWithDuration:1 delay:2 options:0 animations:^{
-			avisoSucessoLabel.alpha = 0;
+			self.avisoSucessoLabel.alpha = 0;
 		} completion:^(BOOL finalizado) {
-			avisoSucessoLabel.hidden = YES;
+			self.avisoSucessoLabel.hidden = YES;
 		}];
 	}];
 }

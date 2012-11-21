@@ -5,26 +5,25 @@
 @end
 
 @implementation ViewController
-@synthesize mapa, gerenciadorLocalizacao;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	mapa.showsUserLocation = YES;
-	mapa.delegate = self;
+	self.mapa.showsUserLocation = YES;
+	self.mapa.delegate = self;
 	
 	UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(adicionaPino:)];
 	longPress.minimumPressDuration = 0.5;
-	[mapa addGestureRecognizer:longPress];
+	[self.mapa addGestureRecognizer:longPress];
 	[longPress release];
 }
 
 -(void) adicionaPino:(UIGestureRecognizer *) gesto {
 	if (gesto.state == UIGestureRecognizerStateBegan) {
 		CGPoint ponto = [gesto locationInView:self.view];
-		CLLocationCoordinate2D coordenadas = [mapa convertPoint:ponto toCoordinateFromView:mapa];
+		CLLocationCoordinate2D coordenadas = [self.mapa convertPoint:ponto toCoordinateFromView:self.mapa];
 		MKPointAnnotation *pino = [[MKPointAnnotation alloc] init];
 		pino.coordinate = coordenadas;
-		[mapa addAnnotation:pino];
+		[self.mapa addAnnotation:pino];
 		[pino release];
 	}
 }
@@ -38,7 +37,7 @@
 	CLLocationDistance distancia = 400;
 	MKCoordinateRegion regiao = MKCoordinateRegionMakeWithDistance(
 		[v.annotation coordinate], distancia, distancia);
-	[mapa setRegion:regiao animated:YES];
+	[self.mapa setRegion:regiao animated:YES];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -46,7 +45,7 @@
 }
 
 - (void)dealloc {
-    [mapa release];
+    [_mapa release];
     [super dealloc];
 }
 @end
