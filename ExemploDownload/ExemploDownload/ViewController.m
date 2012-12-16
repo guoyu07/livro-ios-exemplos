@@ -43,7 +43,7 @@
 		[self showMessage:[NSString stringWithFormat:@"Erro no download: %@", [error localizedDescription]]];
 	}];
 	
-	[operation setDownloadProgressBlock:^(NSInteger bytesRead, NSInteger totalBytesRead, NSInteger totalBytesExpectedToRead) {
+	[operation setDownloadProgressBlock:^(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead) {
 		progressBar.progress = (float)totalBytesRead / (float)totalBytesExpectedToRead;		
 	}];
 	
