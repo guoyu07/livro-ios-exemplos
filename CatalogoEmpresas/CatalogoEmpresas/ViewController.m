@@ -7,26 +7,11 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-	[super viewDidLoad];
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
 	self.avisoSucessoLabel.hidden = YES;
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	return YES;
-}
-
-- (void)dealloc {
-	[_nomeField release];
-	[_quantidadeField release];
-	[_avisoSucessoLabel release];
-	[super dealloc];
-}
-
-
-- (IBAction)incrementadorAlterado:(id)sender {
-	UIStepper *incrementador = (UIStepper *)sender;
-	self.quantidadeField.text = [NSString stringWithFormat:@"%d", (int)incrementador.value];
 }
 
 -(void) salvaEmpresa:(Empresa *) novaEmpresa {
@@ -39,11 +24,23 @@
 
 -(void) mostraCatalogo {
 	NSLog(@"******* Listando todas empresas *******");
-
+	
 	for (Empresa *empresa in catalogo) {
-		NSLog(@"A empresa %@ tem %d funcionários", 
-			empresa.nome, empresa.quantidadeFuncionarios);
+		NSLog(@"A empresa %@ tem %d funcionários",
+			  empresa.nome, empresa.quantidadeFuncionarios);
 	}
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)incrementadorAlterado:(id)sender {
+	UIStepper *incrementador = (UIStepper *)sender;
+	self.quantidadeField.text = [NSString stringWithFormat:@"%d",
+								 (int)incrementador.value];
 }
 
 - (IBAction)salvar:(id)sender {
@@ -55,12 +52,8 @@
 	
 	[self salvaEmpresa:e];
 	[self mostraCatalogo];
-			
-	[e release];
 	
-	// Mostra a mensagem de sucesso por alguns instantes
 	self.avisoSucessoLabel.alpha = 0;
-	self.avisoSucessoLabel.hidden = NO;
 	
 	[UIView animateWithDuration:1 animations:^{
 		self.avisoSucessoLabel.hidden = NO;

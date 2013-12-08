@@ -2,15 +2,15 @@
 //  main.m
 //  CatalogoEmpresas
 //
-//  Created by Rafael Steil on 8/19/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Rafael Steil on 12/8/13.
+//
 //
 
 #import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char * argv[])
 {
 	@autoreleasepool {
 	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));

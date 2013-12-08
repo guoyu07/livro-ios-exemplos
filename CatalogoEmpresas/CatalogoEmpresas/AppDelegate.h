@@ -2,18 +2,14 @@
 //  AppDelegate.h
 //  CatalogoEmpresas
 //
-//  Created by Rafael Steil on 8/19/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Rafael Steil on 12/8/13.
+//
 //
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
-
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) ViewController *viewController;
 
 @end

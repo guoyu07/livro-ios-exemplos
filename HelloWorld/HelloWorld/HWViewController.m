@@ -9,17 +9,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)viewDidUnload
+- (void)didReceiveMemoryWarning
 {
-	[self setWorkingView:nil];
-    [super viewDidUnload];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-	return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)hideView:(id)sender {
@@ -32,10 +28,5 @@
 	[UIView beginAnimations:nil context:nil];
 	self.workingView.alpha = 1;
 	[UIView commitAnimations];
-}
-
-- (void)dealloc {
-	[_workingView release];
-	[super dealloc];
 }
 @end

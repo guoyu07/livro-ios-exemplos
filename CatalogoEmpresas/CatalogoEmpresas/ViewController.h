@@ -4,9 +4,10 @@
 	NSMutableArray *catalogo;
 }
 
-@property (retain, nonatomic) IBOutlet UITextField *nomeField;
-@property (retain, nonatomic) IBOutlet UITextField *quantidadeField;
-@property (retain, nonatomic) IBOutlet UILabel *avisoSucessoLabel;
+
+@property (weak, nonatomic) IBOutlet UITextField *nomeField;
+@property (weak, nonatomic) IBOutlet UITextField *quantidadeField;
+@property (weak, nonatomic) IBOutlet UILabel *avisoSucessoLabel;
 - (IBAction)incrementadorAlterado:(id)sender;
 - (IBAction)salvar:(id)sender;
 
