@@ -1,83 +1,68 @@
 #import "ViewController.h"
-#import "AFHTTPRequestOperation.h"
+#import "AFNetworking.h"
 
 @interface ViewController ()
--(void) showMessage:(NSString *) message;
--(NSString *) downloadSavePathFor:(NSString *) filename;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-	progressBar.progress = 0;
-	progressBar.hidden = YES;
-	loadingIndicator.hidden = YES;
-}
-
-- (void)viewDidUnload {
-	[progressBar release];
-	progressBar = nil;
-	[loadingIndicator release];
-	loadingIndicator = nil;
-    [super viewDidUnload];
-}
-
--(IBAction)startDownload:(id)sender {
-	NSURL *url = [NSURL URLWithString:downloadField.text];
-	NSURLRequest *request = [NSURLRequest requestWithURL:url];
-	NSString *saveFilename = [self downloadSavePathFor:url.lastPathComponent];
-	
-	NSLog(@"Salvando o arquivo em %@", saveFilename);
-	
-	AFHTTPRequestOperation *operation = [[[AFHTTPRequestOperation alloc] initWithRequest:request] autorelease];
-	operation.outputStream = [NSOutputStream outputStreamToFileAtPath:saveFilename append:NO];
-	
-	[operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *op, NSHTTPURLResponse *response) {
-		[loadingIndicator stopAnimating];
-		loadingIndicator.hidden = YES;
-		
-		[self showMessage:@"Download finalizado com sucesso"];
-	}
-	failure:^(AFHTTPRequestOperation *op, NSError *error) {
-		[self showMessage:[NSString stringWithFormat:@"Erro no download: %@", [error localizedDescription]]];
-	}];
-	
-	[operation setDownloadProgressBlock:^(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead) {
-		progressBar.progress = (float)totalBytesRead / (float)totalBytesExpectedToRead;		
-	}];
-	
-	progressBar.hidden = NO;
-	loadingIndicator.hidden = NO;
-	[loadingIndicator startAnimating];
-	
-	[operation start];
-}
-
 -(NSString *) downloadSavePathFor:(NSString *) filename {
-	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSArray *paths =
+		NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
+			NSUserDomainMask, YES);
 	NSString *documentsPath = [paths objectAtIndex:0];
 	return [documentsPath stringByAppendingPathComponent:filename];
 }
 
 -(void) showMessage:(NSString *) message {
-	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Aviso" 
-		message:message 
-		delegate:nil 
-		cancelButtonTitle:@"OK" 
-		otherButtonTitles:nil] autorelease];
-		
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Aviso"
+		message:message
+		delegate:nil
+		cancelButtonTitle:@"OK"
+		otherButtonTitles:nil];
+	
 	[alert show];
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	return YES;
+-(IBAction)startDownload:(id)sender {
+	NSURL *url = [NSURL URLWithString:_downloadField.text];
+	NSURLRequest *request = [NSURLRequest requestWithURL:url];
+	NSString *saveFilename =
+	[self downloadSavePathFor:url.lastPathComponent];
+	
+	NSLog(@"Salvando o arquivo em %@", saveFilename);
+	
+	AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc]
+		initWithRequest:request];
+
+	operation.outputStream = [NSOutputStream
+		outputStreamToFileAtPath:saveFilename append:NO];
+	
+	[operation setCompletionBlockWithSuccess:
+	 	^(AFHTTPRequestOperation *op, NSHTTPURLResponse *response) {
+		 	[_loading stopAnimating];
+		 	_loading.hidden = YES;
+			 [self showMessage:@"Download finalizado com sucesso"];
+	 	}
+		failure:^(AFHTTPRequestOperation *op, NSError *error) {
+			[self showMessage:
+				[NSString stringWithFormat:@"Erro no download: %@",
+				[error localizedDescription]]];
+		}
+	];
+	
+	[operation setDownloadProgressBlock:
+		^(NSUInteger read, long long totalRead, long long totalExpected) {
+		_progressBar.progress = (float)totalRead / (float)totalExpected;
+	}];
+	
+	_progressBar.hidden = NO;
+	_progressBar.progress = 0;
+	_loading.hidden = NO;
+	[_loading startAnimating];
+	
+	[operation start];
 }
 
-- (void)dealloc {
-	[downloadField release];
-	[progressBar release];
-	[loadingIndicator release];
-	[super dealloc];
-}
 @end
