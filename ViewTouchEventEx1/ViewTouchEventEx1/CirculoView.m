@@ -40,9 +40,4 @@
 	CGContextStrokePath(contexto);
 }
 
--(void) dealloc {
-	[circulos release];
-	[super dealloc];
-}
-
 @end

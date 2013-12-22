@@ -3,4 +3,5 @@
 @interface CirculoView : UIView {
 	NSMutableArray *circulos;
 }
+
 @end

@@ -1,8 +1,8 @@
 //
 //  main.m
-//  ViewTouchEventEx1
+//  VisualizadorImagens
 //
-//  Created by Rafael Steil on 12/22/13.
+//  Created by Rafael Steil on 12/18/13.
 //  Copyright (c) 2013 Rafael Steil. All rights reserved.
 //
 

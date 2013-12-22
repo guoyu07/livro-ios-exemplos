@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1A040383-F956-4C6B-92C1-CBA604AF9BE3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AnimacaoTradicionalEx1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E0A337EB-B020-4EC6-BFCC-581A269ABF0F</key>
+		<string>ssh://github.com/rafaelsteil/livro-ios-exemplos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AnimacaoTradicionalEx1/AnimacaoTradicionalEx1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E0A337EB-B020-4EC6-BFCC-581A269ABF0F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/rafaelsteil/livro-ios-exemplos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E0A337EB-B020-4EC6-BFCC-581A269ABF0F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E0A337EB-B020-4EC6-BFCC-581A269ABF0F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>livro-ios-exemplos</string>
+		</dict>
+	</array>
+</dict>
+</plist>
