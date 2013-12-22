@@ -1,9 +1,8 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-#import <CoreLocation/CoreLocation.h>
 
 @interface ViewController : UIViewController<MKMapViewDelegate>
 
-@property (retain, nonatomic) IBOutlet MKMapView *mapa;
+@property (weak, nonatomic) IBOutlet MKMapView *mapa;
 
 @end
