@@ -7,98 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53A0C10D15DEF86100F7D3F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A0C10C15DEF86100F7D3F3 /* UIKit.framework */; };
-		53A0C10F15DEF86100F7D3F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A0C10E15DEF86100F7D3F3 /* Foundation.framework */; };
-		53A0C11115DEF86100F7D3F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A0C11015DEF86100F7D3F3 /* CoreGraphics.framework */; };
-		53A0C11715DEF86100F7D3F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53A0C11515DEF86100F7D3F3 /* InfoPlist.strings */; };
-		53A0C11915DEF86100F7D3F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A0C11815DEF86100F7D3F3 /* main.m */; };
-		53A0C11D15DEF86100F7D3F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A0C11C15DEF86100F7D3F3 /* AppDelegate.m */; };
-		53A0C12015DEF86100F7D3F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A0C11F15DEF86100F7D3F3 /* ViewController.m */; };
-		53A0C12315DEF86100F7D3F3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53A0C12115DEF86100F7D3F3 /* ViewController.xib */; };
-		53A0C12B15DEF88B00F7D3F3 /* TremeTremeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A0C12A15DEF88B00F7D3F3 /* TremeTremeView.m */; };
+		53B354BC1866A58800505F1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B354BB1866A58800505F1E /* Foundation.framework */; };
+		53B354BE1866A58800505F1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B354BD1866A58800505F1E /* CoreGraphics.framework */; };
+		53B354C01866A58800505F1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B354BF1866A58800505F1E /* UIKit.framework */; };
+		53B354C61866A58800505F1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53B354C41866A58800505F1E /* InfoPlist.strings */; };
+		53B354C81866A58800505F1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B354C71866A58800505F1E /* main.m */; };
+		53B354CC1866A58800505F1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B354CB1866A58800505F1E /* AppDelegate.m */; };
+		53B354CF1866A58800505F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B354CD1866A58800505F1E /* Main.storyboard */; };
+		53B354D21866A58800505F1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B354D11866A58800505F1E /* ViewController.m */; };
+		53B354D41866A58800505F1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B354D31866A58800505F1E /* Images.xcassets */; };
+		53B354DB1866A58800505F1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B354DA1866A58800505F1E /* XCTest.framework */; };
+		53B354DC1866A58800505F1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B354BB1866A58800505F1E /* Foundation.framework */; };
+		53B354DD1866A58800505F1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B354BF1866A58800505F1E /* UIKit.framework */; };
+		53B354E51866A58800505F1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53B354E31866A58800505F1E /* InfoPlist.strings */; };
+		53B354E71866A58800505F1E /* TremeTremeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B354E61866A58800505F1E /* TremeTremeTests.m */; };
+		53B354F21866A59900505F1E /* TremeTremeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B354F11866A59900505F1E /* TremeTremeView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		53B354DE1866A58800505F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B354B01866A58800505F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B354B71866A58800505F1E;
+			remoteInfo = TremeTreme;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		53A0C10815DEF86100F7D3F3 /* TremeTreme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TremeTreme.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		53A0C10C15DEF86100F7D3F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		53A0C10E15DEF86100F7D3F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		53A0C11015DEF86100F7D3F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		53A0C11415DEF86100F7D3F3 /* TremeTreme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TremeTreme-Info.plist"; sourceTree = "<group>"; };
-		53A0C11615DEF86100F7D3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		53A0C11815DEF86100F7D3F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		53A0C11A15DEF86100F7D3F3 /* TremeTreme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TremeTreme-Prefix.pch"; sourceTree = "<group>"; };
-		53A0C11B15DEF86100F7D3F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		53A0C11C15DEF86100F7D3F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		53A0C11E15DEF86100F7D3F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		53A0C11F15DEF86100F7D3F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		53A0C12215DEF86100F7D3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		53A0C12915DEF88B00F7D3F3 /* TremeTremeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TremeTremeView.h; sourceTree = "<group>"; };
-		53A0C12A15DEF88B00F7D3F3 /* TremeTremeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TremeTremeView.m; sourceTree = "<group>"; };
+		53B354B81866A58800505F1E /* TremeTreme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TremeTreme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B354BB1866A58800505F1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53B354BD1866A58800505F1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53B354BF1866A58800505F1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53B354C31866A58800505F1E /* TremeTreme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TremeTreme-Info.plist"; sourceTree = "<group>"; };
+		53B354C51866A58800505F1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53B354C71866A58800505F1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53B354C91866A58800505F1E /* TremeTreme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TremeTreme-Prefix.pch"; sourceTree = "<group>"; };
+		53B354CA1866A58800505F1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53B354CB1866A58800505F1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53B354CE1866A58800505F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53B354D01866A58800505F1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53B354D11866A58800505F1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53B354D31866A58800505F1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53B354D91866A58800505F1E /* TremeTremeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TremeTremeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B354DA1866A58800505F1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		53B354E21866A58800505F1E /* TremeTremeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TremeTremeTests-Info.plist"; sourceTree = "<group>"; };
+		53B354E41866A58800505F1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53B354E61866A58800505F1E /* TremeTremeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TremeTremeTests.m; sourceTree = "<group>"; };
+		53B354F01866A59900505F1E /* TremeTremeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TremeTremeView.h; sourceTree = "<group>"; };
+		53B354F11866A59900505F1E /* TremeTremeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TremeTremeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		53A0C10515DEF86100F7D3F3 /* Frameworks */ = {
+		53B354B51866A58800505F1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53A0C10D15DEF86100F7D3F3 /* UIKit.framework in Frameworks */,
-				53A0C10F15DEF86100F7D3F3 /* Foundation.framework in Frameworks */,
-				53A0C11115DEF86100F7D3F3 /* CoreGraphics.framework in Frameworks */,
+				53B354BE1866A58800505F1E /* CoreGraphics.framework in Frameworks */,
+				53B354C01866A58800505F1E /* UIKit.framework in Frameworks */,
+				53B354BC1866A58800505F1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B354D61866A58800505F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B354DB1866A58800505F1E /* XCTest.framework in Frameworks */,
+				53B354DD1866A58800505F1E /* UIKit.framework in Frameworks */,
+				53B354DC1866A58800505F1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53A0C0FD15DEF86100F7D3F3 = {
+		53B354AF1866A58800505F1E = {
 			isa = PBXGroup;
 			children = (
-				53A0C11215DEF86100F7D3F3 /* TremeTreme */,
-				53A0C10B15DEF86100F7D3F3 /* Frameworks */,
-				53A0C10915DEF86100F7D3F3 /* Products */,
+				53B354C11866A58800505F1E /* TremeTreme */,
+				53B354E01866A58800505F1E /* TremeTremeTests */,
+				53B354BA1866A58800505F1E /* Frameworks */,
+				53B354B91866A58800505F1E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		53A0C10915DEF86100F7D3F3 /* Products */ = {
+		53B354B91866A58800505F1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53A0C10815DEF86100F7D3F3 /* TremeTreme.app */,
+				53B354B81866A58800505F1E /* TremeTreme.app */,
+				53B354D91866A58800505F1E /* TremeTremeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		53A0C10B15DEF86100F7D3F3 /* Frameworks */ = {
+		53B354BA1866A58800505F1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53A0C10C15DEF86100F7D3F3 /* UIKit.framework */,
-				53A0C10E15DEF86100F7D3F3 /* Foundation.framework */,
-				53A0C11015DEF86100F7D3F3 /* CoreGraphics.framework */,
+				53B354BB1866A58800505F1E /* Foundation.framework */,
+				53B354BD1866A58800505F1E /* CoreGraphics.framework */,
+				53B354BF1866A58800505F1E /* UIKit.framework */,
+				53B354DA1866A58800505F1E /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		53A0C11215DEF86100F7D3F3 /* TremeTreme */ = {
+		53B354C11866A58800505F1E /* TremeTreme */ = {
 			isa = PBXGroup;
 			children = (
-				53A0C12915DEF88B00F7D3F3 /* TremeTremeView.h */,
-				53A0C12A15DEF88B00F7D3F3 /* TremeTremeView.m */,
-				53A0C11B15DEF86100F7D3F3 /* AppDelegate.h */,
-				53A0C11C15DEF86100F7D3F3 /* AppDelegate.m */,
-				53A0C11E15DEF86100F7D3F3 /* ViewController.h */,
-				53A0C11F15DEF86100F7D3F3 /* ViewController.m */,
-				53A0C12115DEF86100F7D3F3 /* ViewController.xib */,
-				53A0C11315DEF86100F7D3F3 /* Supporting Files */,
+				53B354CA1866A58800505F1E /* AppDelegate.h */,
+				53B354CB1866A58800505F1E /* AppDelegate.m */,
+				53B354CD1866A58800505F1E /* Main.storyboard */,
+				53B354D01866A58800505F1E /* ViewController.h */,
+				53B354D11866A58800505F1E /* ViewController.m */,
+				53B354D31866A58800505F1E /* Images.xcassets */,
+				53B354C21866A58800505F1E /* Supporting Files */,
+				53B354F01866A59900505F1E /* TremeTremeView.h */,
+				53B354F11866A59900505F1E /* TremeTremeView.m */,
 			);
 			path = TremeTreme;
 			sourceTree = "<group>";
 		};
-		53A0C11315DEF86100F7D3F3 /* Supporting Files */ = {
+		53B354C21866A58800505F1E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				53A0C11415DEF86100F7D3F3 /* TremeTreme-Info.plist */,
-				53A0C11515DEF86100F7D3F3 /* InfoPlist.strings */,
-				53A0C11815DEF86100F7D3F3 /* main.m */,
-				53A0C11A15DEF86100F7D3F3 /* TremeTreme-Prefix.pch */,
+				53B354C31866A58800505F1E /* TremeTreme-Info.plist */,
+				53B354C41866A58800505F1E /* InfoPlist.strings */,
+				53B354C71866A58800505F1E /* main.m */,
+				53B354C91866A58800505F1E /* TremeTreme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53B354E01866A58800505F1E /* TremeTremeTests */ = {
+			isa = PBXGroup;
+			children = (
+				53B354E61866A58800505F1E /* TremeTremeTests.m */,
+				53B354E11866A58800505F1E /* Supporting Files */,
+			);
+			path = TremeTremeTests;
+			sourceTree = "<group>";
+		};
+		53B354E11866A58800505F1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53B354E21866A58800505F1E /* TremeTremeTests-Info.plist */,
+				53B354E31866A58800505F1E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -106,13 +160,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53A0C10715DEF86100F7D3F3 /* TremeTreme */ = {
+		53B354B71866A58800505F1E /* TremeTreme */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53A0C12615DEF86100F7D3F3 /* Build configuration list for PBXNativeTarget "TremeTreme" */;
+			buildConfigurationList = 53B354EA1866A58800505F1E /* Build configuration list for PBXNativeTarget "TremeTreme" */;
 			buildPhases = (
-				53A0C10415DEF86100F7D3F3 /* Sources */,
-				53A0C10515DEF86100F7D3F3 /* Frameworks */,
-				53A0C10615DEF86100F7D3F3 /* Resources */,
+				53B354B41866A58800505F1E /* Sources */,
+				53B354B51866A58800505F1E /* Frameworks */,
+				53B354B61866A58800505F1E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,89 +174,156 @@
 			);
 			name = TremeTreme;
 			productName = TremeTreme;
-			productReference = 53A0C10815DEF86100F7D3F3 /* TremeTreme.app */;
+			productReference = 53B354B81866A58800505F1E /* TremeTreme.app */;
 			productType = "com.apple.product-type.application";
+		};
+		53B354D81866A58800505F1E /* TremeTremeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B354ED1866A58800505F1E /* Build configuration list for PBXNativeTarget "TremeTremeTests" */;
+			buildPhases = (
+				53B354D51866A58800505F1E /* Sources */,
+				53B354D61866A58800505F1E /* Frameworks */,
+				53B354D71866A58800505F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B354DF1866A58800505F1E /* PBXTargetDependency */,
+			);
+			name = TremeTremeTests;
+			productName = TremeTremeTests;
+			productReference = 53B354D91866A58800505F1E /* TremeTremeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		53A0C0FF15DEF86100F7D3F3 /* Project object */ = {
+		53B354B01866A58800505F1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Rafael Steil";
+				TargetAttributes = {
+					53B354D81866A58800505F1E = {
+						TestTargetID = 53B354B71866A58800505F1E;
+					};
+				};
 			};
-			buildConfigurationList = 53A0C10215DEF86100F7D3F3 /* Build configuration list for PBXProject "TremeTreme" */;
+			buildConfigurationList = 53B354B31866A58800505F1E /* Build configuration list for PBXProject "TremeTreme" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 53A0C0FD15DEF86100F7D3F3;
-			productRefGroup = 53A0C10915DEF86100F7D3F3 /* Products */;
+			mainGroup = 53B354AF1866A58800505F1E;
+			productRefGroup = 53B354B91866A58800505F1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53A0C10715DEF86100F7D3F3 /* TremeTreme */,
+				53B354B71866A58800505F1E /* TremeTreme */,
+				53B354D81866A58800505F1E /* TremeTremeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		53A0C10615DEF86100F7D3F3 /* Resources */ = {
+		53B354B61866A58800505F1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53A0C11715DEF86100F7D3F3 /* InfoPlist.strings in Resources */,
-				53A0C12315DEF86100F7D3F3 /* ViewController.xib in Resources */,
+				53B354D41866A58800505F1E /* Images.xcassets in Resources */,
+				53B354C61866A58800505F1E /* InfoPlist.strings in Resources */,
+				53B354CF1866A58800505F1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B354D71866A58800505F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B354E51866A58800505F1E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		53A0C10415DEF86100F7D3F3 /* Sources */ = {
+		53B354B41866A58800505F1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53A0C11915DEF86100F7D3F3 /* main.m in Sources */,
-				53A0C11D15DEF86100F7D3F3 /* AppDelegate.m in Sources */,
-				53A0C12015DEF86100F7D3F3 /* ViewController.m in Sources */,
-				53A0C12B15DEF88B00F7D3F3 /* TremeTremeView.m in Sources */,
+				53B354F21866A59900505F1E /* TremeTremeView.m in Sources */,
+				53B354D21866A58800505F1E /* ViewController.m in Sources */,
+				53B354CC1866A58800505F1E /* AppDelegate.m in Sources */,
+				53B354C81866A58800505F1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B354D51866A58800505F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B354E71866A58800505F1E /* TremeTremeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		53B354DF1866A58800505F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B354B71866A58800505F1E /* TremeTreme */;
+			targetProxy = 53B354DE1866A58800505F1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		53A0C11515DEF86100F7D3F3 /* InfoPlist.strings */ = {
+		53B354C41866A58800505F1E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				53A0C11615DEF86100F7D3F3 /* en */,
+				53B354C51866A58800505F1E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		53A0C12115DEF86100F7D3F3 /* ViewController.xib */ = {
+		53B354CD1866A58800505F1E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				53A0C12215DEF86100F7D3F3 /* en */,
+				53B354CE1866A58800505F1E /* Base */,
 			);
-			name = ViewController.xib;
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53B354E31866A58800505F1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B354E41866A58800505F1E /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		53A0C12415DEF86100F7D3F3 /* Debug */ = {
+		53B354E81866A58800505F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -213,44 +334,56 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		53A0C12515DEF86100F7D3F3 /* Release */ = {
+		53B354E91866A58800505F1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		53A0C12715DEF86100F7D3F3 /* Debug */ = {
+		53B354EB1866A58800505F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TremeTreme/TremeTreme-Prefix.pch";
 				INFOPLIST_FILE = "TremeTreme/TremeTreme-Info.plist";
@@ -259,39 +392,90 @@
 			};
 			name = Debug;
 		};
-		53A0C12815DEF86100F7D3F3 /* Release */ = {
+		53B354EC1866A58800505F1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TremeTreme/TremeTreme-Prefix.pch";
 				INFOPLIST_FILE = "TremeTreme/TremeTreme-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		53B354EE1866A58800505F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TremeTreme.app/TremeTreme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TremeTreme/TremeTreme-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TremeTremeTests/TremeTremeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		53B354EF1866A58800505F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TremeTreme.app/TremeTreme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TremeTreme/TremeTreme-Prefix.pch";
+				INFOPLIST_FILE = "TremeTremeTests/TremeTremeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53A0C10215DEF86100F7D3F3 /* Build configuration list for PBXProject "TremeTreme" */ = {
+		53B354B31866A58800505F1E /* Build configuration list for PBXProject "TremeTreme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53A0C12415DEF86100F7D3F3 /* Debug */,
-				53A0C12515DEF86100F7D3F3 /* Release */,
+				53B354E81866A58800505F1E /* Debug */,
+				53B354E91866A58800505F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53A0C12615DEF86100F7D3F3 /* Build configuration list for PBXNativeTarget "TremeTreme" */ = {
+		53B354EA1866A58800505F1E /* Build configuration list for PBXNativeTarget "TremeTreme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53A0C12715DEF86100F7D3F3 /* Debug */,
-				53A0C12815DEF86100F7D3F3 /* Release */,
+				53B354EB1866A58800505F1E /* Debug */,
+				53B354EC1866A58800505F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		53B354ED1866A58800505F1E /* Build configuration list for PBXNativeTarget "TremeTremeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B354EE1866A58800505F1E /* Debug */,
+				53B354EF1866A58800505F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 53A0C0FF15DEF86100F7D3F3 /* Project object */;
+	rootObject = 53B354B01866A58800505F1E /* Project object */;
 }
