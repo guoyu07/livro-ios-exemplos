@@ -2,18 +2,14 @@
 //  AppDelegate.h
 //  TapCirculos
 //
-//  Created by Rafael Steil on 8/17/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Rafael Steil on 12/22/13.
+//  Copyright (c) 2013 Rafael Steil. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
-
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) ViewController *viewController;
 
 @end

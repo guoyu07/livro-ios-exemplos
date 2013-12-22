@@ -4,7 +4,7 @@
 @implementation ViewController
 
 -(void) loadView {
-	TapCirculoView *c = [[[TapCirculoView alloc] init] autorelease];
+	TapCirculoView *c = [[TapCirculoView alloc] init];
 	c.backgroundColor = [UIColor whiteColor];
 	self.view = c;
 }

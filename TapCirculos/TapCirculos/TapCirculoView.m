@@ -1,5 +1,6 @@
 #import "TapCirculoView.h"
 
+
 @interface TapCirculoView()
 -(void) registraEventos;
 @end
@@ -15,10 +16,11 @@
 }
 
 -(void) registraEventos {
-	UITapGestureRecognizer *toque = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(toqueRecebido:)];
+	UITapGestureRecognizer *toque = [[UITapGestureRecognizer alloc]
+		initWithTarget:self action:@selector(toqueRecebido:)];
+	
 	toque.numberOfTapsRequired = 1; // Valor padrão é 1
 	[self addGestureRecognizer:toque];
-	[toque release];
 }
 
 -(void) toqueRecebido:(UIGestureRecognizer *) gesto {
@@ -46,11 +48,6 @@
 	}
 	
 	CGContextStrokePath(contexto);
-}
-
--(void) dealloc {
-	[circulos release];
-	[super dealloc];
 }
 
 @end

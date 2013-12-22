@@ -3,4 +3,5 @@
 @interface TapCirculoView : UIView {
 	NSMutableArray *circulos;
 }
+
 @end

@@ -7,98 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		530480EB15DE699800FC74F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530480EA15DE699800FC74F3 /* UIKit.framework */; };
-		530480ED15DE699800FC74F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530480EC15DE699800FC74F3 /* Foundation.framework */; };
-		530480EF15DE699800FC74F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530480EE15DE699800FC74F3 /* CoreGraphics.framework */; };
-		530480F515DE699800FC74F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 530480F315DE699800FC74F3 /* InfoPlist.strings */; };
-		530480F715DE699800FC74F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530480F615DE699800FC74F3 /* main.m */; };
-		530480FB15DE699800FC74F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530480FA15DE699800FC74F3 /* AppDelegate.m */; };
-		530480FE15DE699800FC74F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530480FD15DE699800FC74F3 /* ViewController.m */; };
-		5304810115DE699800FC74F3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530480FF15DE699800FC74F3 /* ViewController.xib */; };
-		5304810915DE69B800FC74F3 /* TapCirculoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304810815DE69B800FC74F3 /* TapCirculoView.m */; };
+		53B354781866A3F400505F1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B354771866A3F400505F1E /* Foundation.framework */; };
+		53B3547A1866A3F400505F1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B354791866A3F400505F1E /* CoreGraphics.framework */; };
+		53B3547C1866A3F400505F1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B3547B1866A3F400505F1E /* UIKit.framework */; };
+		53B354821866A3F400505F1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53B354801866A3F400505F1E /* InfoPlist.strings */; };
+		53B354841866A3F400505F1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B354831866A3F400505F1E /* main.m */; };
+		53B354881866A3F400505F1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B354871866A3F400505F1E /* AppDelegate.m */; };
+		53B3548B1866A3F400505F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B354891866A3F400505F1E /* Main.storyboard */; };
+		53B3548E1866A3F400505F1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B3548D1866A3F400505F1E /* ViewController.m */; };
+		53B354901866A3F400505F1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B3548F1866A3F400505F1E /* Images.xcassets */; };
+		53B354971866A3F400505F1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B354961866A3F400505F1E /* XCTest.framework */; };
+		53B354981866A3F400505F1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B354771866A3F400505F1E /* Foundation.framework */; };
+		53B354991866A3F400505F1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B3547B1866A3F400505F1E /* UIKit.framework */; };
+		53B354A11866A3F400505F1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53B3549F1866A3F400505F1E /* InfoPlist.strings */; };
+		53B354A31866A3F400505F1E /* TapCirculosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B354A21866A3F400505F1E /* TapCirculosTests.m */; };
+		53B354AE1866A41800505F1E /* TapCirculoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B354AD1866A41800505F1E /* TapCirculoView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		53B3549A1866A3F400505F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B3546C1866A3F400505F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B354731866A3F400505F1E;
+			remoteInfo = TapCirculos;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		530480E615DE699800FC74F3 /* TapCirculos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCirculos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		530480EA15DE699800FC74F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		530480EC15DE699800FC74F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		530480EE15DE699800FC74F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		530480F215DE699800FC74F3 /* TapCirculos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapCirculos-Info.plist"; sourceTree = "<group>"; };
-		530480F415DE699800FC74F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		530480F615DE699800FC74F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		530480F815DE699800FC74F3 /* TapCirculos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapCirculos-Prefix.pch"; sourceTree = "<group>"; };
-		530480F915DE699800FC74F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		530480FA15DE699800FC74F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		530480FC15DE699800FC74F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		530480FD15DE699800FC74F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5304810015DE699800FC74F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		5304810715DE69B800FC74F3 /* TapCirculoView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = TapCirculoView.h; sourceTree = "<group>"; };
-		5304810815DE69B800FC74F3 /* TapCirculoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapCirculoView.m; sourceTree = "<group>"; };
+		53B354741866A3F400505F1E /* TapCirculos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCirculos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B354771866A3F400505F1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53B354791866A3F400505F1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53B3547B1866A3F400505F1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53B3547F1866A3F400505F1E /* TapCirculos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapCirculos-Info.plist"; sourceTree = "<group>"; };
+		53B354811866A3F400505F1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53B354831866A3F400505F1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53B354851866A3F400505F1E /* TapCirculos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapCirculos-Prefix.pch"; sourceTree = "<group>"; };
+		53B354861866A3F400505F1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53B354871866A3F400505F1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53B3548A1866A3F400505F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53B3548C1866A3F400505F1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53B3548D1866A3F400505F1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53B3548F1866A3F400505F1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53B354951866A3F400505F1E /* TapCirculosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapCirculosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B354961866A3F400505F1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		53B3549E1866A3F400505F1E /* TapCirculosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapCirculosTests-Info.plist"; sourceTree = "<group>"; };
+		53B354A01866A3F400505F1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53B354A21866A3F400505F1E /* TapCirculosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapCirculosTests.m; sourceTree = "<group>"; };
+		53B354AC1866A41800505F1E /* TapCirculoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapCirculoView.h; sourceTree = "<group>"; };
+		53B354AD1866A41800505F1E /* TapCirculoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapCirculoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		530480E315DE699800FC74F3 /* Frameworks */ = {
+		53B354711866A3F400505F1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530480EB15DE699800FC74F3 /* UIKit.framework in Frameworks */,
-				530480ED15DE699800FC74F3 /* Foundation.framework in Frameworks */,
-				530480EF15DE699800FC74F3 /* CoreGraphics.framework in Frameworks */,
+				53B3547A1866A3F400505F1E /* CoreGraphics.framework in Frameworks */,
+				53B3547C1866A3F400505F1E /* UIKit.framework in Frameworks */,
+				53B354781866A3F400505F1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B354921866A3F400505F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B354971866A3F400505F1E /* XCTest.framework in Frameworks */,
+				53B354991866A3F400505F1E /* UIKit.framework in Frameworks */,
+				53B354981866A3F400505F1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		530480DB15DE699800FC74F3 = {
+		53B3546B1866A3F400505F1E = {
 			isa = PBXGroup;
 			children = (
-				530480F015DE699800FC74F3 /* TapCirculos */,
-				530480E915DE699800FC74F3 /* Frameworks */,
-				530480E715DE699800FC74F3 /* Products */,
+				53B3547D1866A3F400505F1E /* TapCirculos */,
+				53B3549C1866A3F400505F1E /* TapCirculosTests */,
+				53B354761866A3F400505F1E /* Frameworks */,
+				53B354751866A3F400505F1E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		530480E715DE699800FC74F3 /* Products */ = {
+		53B354751866A3F400505F1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				530480E615DE699800FC74F3 /* TapCirculos.app */,
+				53B354741866A3F400505F1E /* TapCirculos.app */,
+				53B354951866A3F400505F1E /* TapCirculosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		530480E915DE699800FC74F3 /* Frameworks */ = {
+		53B354761866A3F400505F1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				530480EA15DE699800FC74F3 /* UIKit.framework */,
-				530480EC15DE699800FC74F3 /* Foundation.framework */,
-				530480EE15DE699800FC74F3 /* CoreGraphics.framework */,
+				53B354771866A3F400505F1E /* Foundation.framework */,
+				53B354791866A3F400505F1E /* CoreGraphics.framework */,
+				53B3547B1866A3F400505F1E /* UIKit.framework */,
+				53B354961866A3F400505F1E /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		530480F015DE699800FC74F3 /* TapCirculos */ = {
+		53B3547D1866A3F400505F1E /* TapCirculos */ = {
 			isa = PBXGroup;
 			children = (
-				5304810715DE69B800FC74F3 /* TapCirculoView.h */,
-				5304810815DE69B800FC74F3 /* TapCirculoView.m */,
-				530480F915DE699800FC74F3 /* AppDelegate.h */,
-				530480FA15DE699800FC74F3 /* AppDelegate.m */,
-				530480FC15DE699800FC74F3 /* ViewController.h */,
-				530480FD15DE699800FC74F3 /* ViewController.m */,
-				530480FF15DE699800FC74F3 /* ViewController.xib */,
-				530480F115DE699800FC74F3 /* Supporting Files */,
+				53B354861866A3F400505F1E /* AppDelegate.h */,
+				53B354871866A3F400505F1E /* AppDelegate.m */,
+				53B354891866A3F400505F1E /* Main.storyboard */,
+				53B3548C1866A3F400505F1E /* ViewController.h */,
+				53B3548D1866A3F400505F1E /* ViewController.m */,
+				53B3548F1866A3F400505F1E /* Images.xcassets */,
+				53B3547E1866A3F400505F1E /* Supporting Files */,
+				53B354AC1866A41800505F1E /* TapCirculoView.h */,
+				53B354AD1866A41800505F1E /* TapCirculoView.m */,
 			);
 			path = TapCirculos;
 			sourceTree = "<group>";
 		};
-		530480F115DE699800FC74F3 /* Supporting Files */ = {
+		53B3547E1866A3F400505F1E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				530480F215DE699800FC74F3 /* TapCirculos-Info.plist */,
-				530480F315DE699800FC74F3 /* InfoPlist.strings */,
-				530480F615DE699800FC74F3 /* main.m */,
-				530480F815DE699800FC74F3 /* TapCirculos-Prefix.pch */,
+				53B3547F1866A3F400505F1E /* TapCirculos-Info.plist */,
+				53B354801866A3F400505F1E /* InfoPlist.strings */,
+				53B354831866A3F400505F1E /* main.m */,
+				53B354851866A3F400505F1E /* TapCirculos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53B3549C1866A3F400505F1E /* TapCirculosTests */ = {
+			isa = PBXGroup;
+			children = (
+				53B354A21866A3F400505F1E /* TapCirculosTests.m */,
+				53B3549D1866A3F400505F1E /* Supporting Files */,
+			);
+			path = TapCirculosTests;
+			sourceTree = "<group>";
+		};
+		53B3549D1866A3F400505F1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53B3549E1866A3F400505F1E /* TapCirculosTests-Info.plist */,
+				53B3549F1866A3F400505F1E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -106,13 +160,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		530480E515DE699800FC74F3 /* TapCirculos */ = {
+		53B354731866A3F400505F1E /* TapCirculos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5304810415DE699800FC74F3 /* Build configuration list for PBXNativeTarget "TapCirculos" */;
+			buildConfigurationList = 53B354A61866A3F400505F1E /* Build configuration list for PBXNativeTarget "TapCirculos" */;
 			buildPhases = (
-				530480E215DE699800FC74F3 /* Sources */,
-				530480E315DE699800FC74F3 /* Frameworks */,
-				530480E415DE699800FC74F3 /* Resources */,
+				53B354701866A3F400505F1E /* Sources */,
+				53B354711866A3F400505F1E /* Frameworks */,
+				53B354721866A3F400505F1E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,85 +174,156 @@
 			);
 			name = TapCirculos;
 			productName = TapCirculos;
-			productReference = 530480E615DE699800FC74F3 /* TapCirculos.app */;
+			productReference = 53B354741866A3F400505F1E /* TapCirculos.app */;
 			productType = "com.apple.product-type.application";
+		};
+		53B354941866A3F400505F1E /* TapCirculosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B354A91866A3F400505F1E /* Build configuration list for PBXNativeTarget "TapCirculosTests" */;
+			buildPhases = (
+				53B354911866A3F400505F1E /* Sources */,
+				53B354921866A3F400505F1E /* Frameworks */,
+				53B354931866A3F400505F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B3549B1866A3F400505F1E /* PBXTargetDependency */,
+			);
+			name = TapCirculosTests;
+			productName = TapCirculosTests;
+			productReference = 53B354951866A3F400505F1E /* TapCirculosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		530480DD15DE699800FC74F3 /* Project object */ = {
+		53B3546C1866A3F400505F1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rafael Steil";
+				TargetAttributes = {
+					53B354941866A3F400505F1E = {
+						TestTargetID = 53B354731866A3F400505F1E;
+					};
+				};
 			};
-			buildConfigurationList = 530480E015DE699800FC74F3 /* Build configuration list for PBXProject "TapCirculos" */;
+			buildConfigurationList = 53B3546F1866A3F400505F1E /* Build configuration list for PBXProject "TapCirculos" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 530480DB15DE699800FC74F3;
-			productRefGroup = 530480E715DE699800FC74F3 /* Products */;
+			mainGroup = 53B3546B1866A3F400505F1E;
+			productRefGroup = 53B354751866A3F400505F1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				530480E515DE699800FC74F3 /* TapCirculos */,
+				53B354731866A3F400505F1E /* TapCirculos */,
+				53B354941866A3F400505F1E /* TapCirculosTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		530480E415DE699800FC74F3 /* Resources */ = {
+		53B354721866A3F400505F1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530480F515DE699800FC74F3 /* InfoPlist.strings in Resources */,
-				5304810115DE699800FC74F3 /* ViewController.xib in Resources */,
+				53B354901866A3F400505F1E /* Images.xcassets in Resources */,
+				53B354821866A3F400505F1E /* InfoPlist.strings in Resources */,
+				53B3548B1866A3F400505F1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B354931866A3F400505F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B354A11866A3F400505F1E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		530480E215DE699800FC74F3 /* Sources */ = {
+		53B354701866A3F400505F1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530480F715DE699800FC74F3 /* main.m in Sources */,
-				530480FB15DE699800FC74F3 /* AppDelegate.m in Sources */,
-				530480FE15DE699800FC74F3 /* ViewController.m in Sources */,
-				5304810915DE69B800FC74F3 /* TapCirculoView.m in Sources */,
+				53B354AE1866A41800505F1E /* TapCirculoView.m in Sources */,
+				53B3548E1866A3F400505F1E /* ViewController.m in Sources */,
+				53B354881866A3F400505F1E /* AppDelegate.m in Sources */,
+				53B354841866A3F400505F1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B354911866A3F400505F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B354A31866A3F400505F1E /* TapCirculosTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		53B3549B1866A3F400505F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B354731866A3F400505F1E /* TapCirculos */;
+			targetProxy = 53B3549A1866A3F400505F1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		530480F315DE699800FC74F3 /* InfoPlist.strings */ = {
+		53B354801866A3F400505F1E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				530480F415DE699800FC74F3 /* en */,
+				53B354811866A3F400505F1E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		530480FF15DE699800FC74F3 /* ViewController.xib */ = {
+		53B354891866A3F400505F1E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5304810015DE699800FC74F3 /* en */,
+				53B3548A1866A3F400505F1E /* Base */,
 			);
-			name = ViewController.xib;
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53B3549F1866A3F400505F1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B354A01866A3F400505F1E /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5304810215DE699800FC74F3 /* Debug */ = {
+		53B354A41866A3F400505F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -209,37 +334,56 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		5304810315DE699800FC74F3 /* Release */ = {
+		53B354A51866A3F400505F1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5304810515DE699800FC74F3 /* Debug */ = {
+		53B354A71866A3F400505F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapCirculos/TapCirculos-Prefix.pch";
 				INFOPLIST_FILE = "TapCirculos/TapCirculos-Info.plist";
@@ -248,38 +392,90 @@
 			};
 			name = Debug;
 		};
-		5304810615DE699800FC74F3 /* Release */ = {
+		53B354A81866A3F400505F1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapCirculos/TapCirculos-Prefix.pch";
 				INFOPLIST_FILE = "TapCirculos/TapCirculos-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		53B354AA1866A3F400505F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapCirculos.app/TapCirculos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapCirculos/TapCirculos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TapCirculosTests/TapCirculosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		53B354AB1866A3F400505F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapCirculos.app/TapCirculos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapCirculos/TapCirculos-Prefix.pch";
+				INFOPLIST_FILE = "TapCirculosTests/TapCirculosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		530480E015DE699800FC74F3 /* Build configuration list for PBXProject "TapCirculos" */ = {
+		53B3546F1866A3F400505F1E /* Build configuration list for PBXProject "TapCirculos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5304810215DE699800FC74F3 /* Debug */,
-				5304810315DE699800FC74F3 /* Release */,
+				53B354A41866A3F400505F1E /* Debug */,
+				53B354A51866A3F400505F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5304810415DE699800FC74F3 /* Build configuration list for PBXNativeTarget "TapCirculos" */ = {
+		53B354A61866A3F400505F1E /* Build configuration list for PBXNativeTarget "TapCirculos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5304810515DE699800FC74F3 /* Debug */,
-				5304810615DE699800FC74F3 /* Release */,
+				53B354A71866A3F400505F1E /* Debug */,
+				53B354A81866A3F400505F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53B354A91866A3F400505F1E /* Build configuration list for PBXNativeTarget "TapCirculosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B354AA1866A3F400505F1E /* Debug */,
+				53B354AB1866A3F400505F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 530480DD15DE699800FC74F3 /* Project object */;
+	rootObject = 53B3546C1866A3F400505F1E /* Project object */;
 }
